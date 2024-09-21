@@ -3,10 +3,8 @@ import Contact from "../Contact/Contact";
 import React from "react";
 import css from "./ContactList.module.css";
 
-const ContactList = ({ contacts, setContacts }) => {
-  const onDeleteContact = (id) => {
-    setContacts(contacts.filter((contact) => contact.id !== id));
-  };
+const ContactList = ({ contacts, onDeleteContact }) => {
+
   return (
     <ul className={css.contactList}>
       {contacts.map((contact) => (
@@ -27,7 +25,7 @@ ContactList.propTypes = {
     })
   ).isRequired,
 
-  setContacts: PropTypes.func,
+  onDeleteContact: PropTypes.func,
 };
 
 export default ContactList;
