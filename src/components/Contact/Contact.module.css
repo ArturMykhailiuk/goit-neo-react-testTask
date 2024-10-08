@@ -4,10 +4,14 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  border: 1px solid black;
+  border: 1px solid grey;
   border-radius: 5px;
   width: 400px;
   padding: 0 10px 0 10px;
+}
+
+.contact:hover {
+  transform: scale(1.02);
 }
 
 .contactInfo {
@@ -20,6 +24,11 @@
 
 .deleteBtn {
   background-color: #dadada;
+  border: 1px solid grey;
+}
+
+.deleteBtn:active {
+  border: 2px solid rgb(100, 100, 100);
 }
 
 .icon {
