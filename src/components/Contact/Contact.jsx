@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { deleteContact, selectContacts } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
+import { selectContacts } from "../../redux/contactsSlice";
 import css from "./Contact.module.css";
 import phonesvg from "../../assets/phone.svg";
 import contactsvg from "../../assets/contact.svg";
