@@ -9,8 +9,6 @@ import { resetCampers, resetVisibleCount } from "../../redux/campers/slice";
 import { fetchCampers } from "../../redux/campers/operations";
 import css from "./Filters.module.css";
 import { useRef } from "react";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Filters = () => {
   const dispatch = useDispatch();
@@ -62,20 +60,11 @@ const Filters = () => {
   };
 
   const handleApplyFilters = () => {
-    {
-      if (
-        choosedFilters.location.length >= 1 &&
-        choosedFilters.location.length < 3
-      ) {
-        toast.error("Please enter minimum 3 characters for Location filter");
-      } else {
-        dispatch(resetFilters()); //reset filters in store
-        dispatch(resetCampers());
-        dispatch(setFilters(choosedFilters));
-        dispatch(fetchCampers());
-        dispatch(resetVisibleCount()); // Скидання кількості видимих карток до 4
-      }
-    }
+    dispatch(resetFilters()); //reset filters in store
+    dispatch(resetCampers());
+    dispatch(setFilters(choosedFilters));
+    dispatch(fetchCampers());
+    dispatch(resetVisibleCount()); // Скидання кількості видимих карток до 4
   };
 
   /*Add filters for equipment and type*/
@@ -84,7 +73,6 @@ const Filters = () => {
 
   return (
     <div className={css.filters}>
-      <ToastContainer />
       <label className={css.locationLabel}>
         Location
         <div className={css.locationGroup}>
