@@ -1,11 +1,16 @@
+import { lazy } from "react";
 import { Route, Routes } from "react-router-dom";
-import HomePage from "../../pages/HomePage/HomePage";
-import CatalogPage from "../../pages/CatalogPage/CatalogPage";
-import CamperDetailPage from "../../pages/CamperDetailPage/CamperDetailPage.jsx";
-import Navigation from "../Navigation/Navigation.jsx";
-import Features from "../Features/Features.jsx";
-import Reviews from "../Reviews/Reviews.jsx";
-import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
+const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
+const CatalogPage = lazy(() => import("../../pages/CatalogPage/CatalogPage"));
+const CamperDetailPage = lazy(() =>
+  import("../../pages/CamperDetailPage/CamperDetailPage.jsx")
+);
+const Navigation = lazy(() => import("../Navigation/Navigation.jsx"));
+const Features = lazy(() => import("../Features/Features.jsx"));
+const Reviews = lazy(() => import("../Reviews/Reviews.jsx"));
+const NotFoundPage = lazy(() =>
+  import("../../pages/NotFoundPage/NotFoundPage")
+);
 
 const App = () => {
   return (
