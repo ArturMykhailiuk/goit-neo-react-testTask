@@ -13,6 +13,7 @@ import {
   selectLoading,
   selectError,
 } from "../../redux/campers/selectors";
+import bannerpng from "../../assets/banner.png";
 import css from "./CamperDetailPage.module.css";
 import BookingForm from "../../components/BookingForm/BookingForm";
 
@@ -86,7 +87,7 @@ const CamperDetailPage = () => {
         ))}
         <div className={css.galleryItem}>
           <img
-            src="../../src/assets/banner.png"
+            src={bannerpng}
             alt="Additional image"
             className={css.detailImg}
           />
