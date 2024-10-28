@@ -21,7 +21,7 @@ const Features = () => {
             camper[category] && (
               <button key={category} className={css.cardCategory}>
                 <svg key={category} className={css.cardIcon}>
-                  <use xlinkHref={`/public/sprite.svg#${category}`} />
+                  <use xlinkHref={`/sprite.svg#${category}`} />
                 </svg>
                 {category.charAt(0).toUpperCase() + category.slice(1)}
               </button>
