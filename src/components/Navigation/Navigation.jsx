@@ -4,7 +4,7 @@ import css from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <nav className={css.navigation}>
-      <div className={css.logo}>
+      <div>
         <svg className={css.logoIcon}>
           <use xlinkHref="/sprite.svg#logo" />
         </svg>

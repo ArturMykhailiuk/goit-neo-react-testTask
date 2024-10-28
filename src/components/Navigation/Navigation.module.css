@@ -14,13 +14,6 @@
 
 .logo {
   align-items: center;
-  gap: 10px;
-  display: flex;
-}
-
-.logoImage {
-  width: 136px;
-  height: 16px;
 }
 
 .linkFlex {
