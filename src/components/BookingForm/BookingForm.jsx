@@ -46,7 +46,7 @@ const BookingForm = () => {
       <Formik initialValues={initialValues} onSubmit={onSubmit}>
         {({ isSubmitting }) => (
           <Form className={css.formGroup}>
-            <ToastContainer />
+            <ToastContainer autoClose="1250" />
             <div className={css.formGroupInputs}>
               <Field
                 type="text"

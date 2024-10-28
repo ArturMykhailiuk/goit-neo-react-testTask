@@ -86,7 +86,7 @@ const CatalogPage = () => {
             </button>
           </div>
         ) : (
-          <ToastContainer />
+          <ToastContainer autoClose="1250" />
         )}
       </div>
     </div>
