@@ -2,11 +2,11 @@
   width: 631px;
   height: 598px;
   padding: 44px 80px;
-  background-color: var(--color-inputs);
+  background-color: #f7f7f7;
   border-radius: 10px;
   margin-top: 44px;
   margin-bottom: 64px;
-  border: 1px solid var(--color-inputs);
+  border: 1px solid #f7f7f7;
 }
 
 .features::before {
@@ -38,9 +38,9 @@
   justify-content: center;
   height: 48px;
   border-radius: 100px;
-  background-color: var(--color-badges);
+  background-color: #f2f4f7;
   gap: 8px;
-  color: var(--color-main);
+  color: #101828;
   padding: 0 12px;
   cursor: default;
 }
@@ -52,7 +52,7 @@
 .cardIcon {
   width: 20px;
   height: 20px;
-  stroke: --var(color-main);
+  stroke: #101828;
 }
 
 .vehicleDetails {
@@ -62,7 +62,7 @@
 
 .vehicleDetails h3 {
   margin: 0;
-  color: var(--color-main);
+  color: #101828;
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;

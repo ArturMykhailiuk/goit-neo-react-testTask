@@ -35,8 +35,8 @@
   width: 60px;
   height: 60px;
   border-radius: 60px;
-  background-color: var(--color-badges);
-  color: var(--color-button);
+  background-color: #f2f4f7;
+  color: #e44848;
   font-family: Inter;
   font-size: 24px;
   font-weight: 600;
@@ -68,13 +68,13 @@
 .starIcon {
   width: 16px;
   height: 16px;
-  fill: var(--color-badges);
+  fill: #f2f4f7;
 }
 
 .filled {
   width: 16px;
   height: 16px;
-  fill: var(--color-rating);
+  fill: #ffc531;
 }
 
 .reviewText {
@@ -84,5 +84,5 @@
   line-height: 24px;
   text-align: left;
 
-  color: var(--color-gray);
+  color: #6c717b;
 }

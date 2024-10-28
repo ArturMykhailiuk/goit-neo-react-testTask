@@ -1,15 +1,14 @@
-:root {
-  --color-main: #101828; /* Основний колір */
-  --color-text: #475467; /* Основний колір тексту*/
-  --color-gray: #6c717b; /* Вторинний колір тексту*/
-  --color-button: #e44848; /* Колір фону кнопки*/
-  --color-button-hover: #d84343; /* Колір фону кнопки при наведені */
-  --color-rating: #ffc531; /* Колір рейтингових елементів */
-  --color-gray-light: #dadde1;
-  --color-badges: #f2f4f7;
-  --color-inputs: #f7f7f7;
-}
-
+/* :root { */
+/* --color-main: #101828; Основний колір */
+/* --color-text: #475467; Основний колір тексту */
+/* --color-gray: #6c717b; Вторинний колір тексту */
+/* --color-button: #e44848; Колір фону кнопки */
+/* --color-button-hover: #d84343; Колір фону кнопки при наведені */
+/* --color-rating: #ffc531; Колір рейтингових елементів */
+/* --color-gray-light: #dadde1; */
+/* --color-badges: #f2f4f7; */
+/* --color-inputs: #f7f7f7; */
+/* } */
 * {
   box-sizing: border-box;
 }
