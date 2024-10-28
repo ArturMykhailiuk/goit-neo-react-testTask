@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import css from "./HomePage.module.css";
-import bannerpng from "../../assets/banner.png";
+import bannerwebp from "../../assets/banner.webp";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const HomePage = () => {
   return (
     <div className={css.homePage}>
       <img
-        src={bannerpng}
+        src={bannerwebp}
         alt="Camper in the forest"
         className={css.bannerImg}
       />
