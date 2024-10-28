@@ -14,7 +14,7 @@
   display: block;
   width: 83px;
   height: 5px;
-  background-color: var(--color-button);
+  background-color: #e44848;
   position: relative;
   top: -107px;
   bottom: 10px;
@@ -45,7 +45,7 @@
   cursor: default;
 }
 .cardCategory:hover {
-  background-color: var(--color-gray-light);
+  background-color: #dadde1;
   cursor: default;
 }
 

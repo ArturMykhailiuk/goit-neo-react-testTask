@@ -161,7 +161,7 @@
   cursor: default;
 }
 .cardCategory:hover {
-  background-color: var(--color-badges);
+  background-color: #f2f4f7;
   cursor: default;
 }
 
@@ -176,5 +176,5 @@
   height: 56px;
 }
 .showMoreBtn:hover {
-  background-color: var(--color-button-hover);
+  background-color: #d84343;
 }

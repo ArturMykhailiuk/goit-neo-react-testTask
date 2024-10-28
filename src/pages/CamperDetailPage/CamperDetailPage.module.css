@@ -82,7 +82,7 @@
   display: block;
   width: 100%;
   height: 1px;
-  background-color: var(--color-gray-light);
+  background-color: #dadde1;
   position: relative;
   top: 113px;
   left: 0px;
@@ -97,7 +97,7 @@
 }
 
 .additionalLinks:hover {
-  color: var(--color-main);
+  color: #101828;
 }
 
 .outletBooking {
@@ -113,5 +113,5 @@
 }
 
 .detailRatingLink:hover {
-  color: var(--color-main);
+  color: #101828;
 }

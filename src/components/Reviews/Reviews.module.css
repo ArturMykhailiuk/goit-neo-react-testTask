@@ -9,7 +9,7 @@
   display: block;
   width: 79px;
   height: 5px;
-  background-color: var(--color-button);
+  background-color: #e44848;
   position: relative;
   top: -62px;
   bottom: 10px;
@@ -61,7 +61,7 @@
 }
 
 .reviewerAvatar:hover {
-  background-color: var(--color-badges);
+  background-color: #f2f4f7;
   cursor: default;
 }
 

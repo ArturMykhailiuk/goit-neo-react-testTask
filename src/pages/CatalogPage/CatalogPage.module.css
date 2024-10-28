@@ -29,8 +29,5 @@
 
 .loadMore:hover {
   background-color: white;
-  border: 1px solid var(--color-button-hover);
-}
-
-.loader {
+  border: 1px solid #d84343;
 }

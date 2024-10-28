@@ -25,7 +25,7 @@
   width: 40px;
 }
 .locationBtn:hover {
-  background-color: var(--color-inputs);
+  background-color: #f7f7f7;
   cursor: default;
 }
 
