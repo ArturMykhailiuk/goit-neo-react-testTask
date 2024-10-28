@@ -1,0 +1,180 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 368px;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.cardImg {
+  width: 292px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardTitle {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+
+  color: var(--color-text);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.cardPrice {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+  margin-left: 16px;
+}
+
+.cardInfo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 8px;
+}
+
+.cardPriceFav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+.cardHeader {
+  margin: 0;
+  color: var(--color-main);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.iconHeart {
+  width: 25px;
+  height: 24px;
+  fill: var(--color-main);
+}
+
+.cardFavBtn {
+  cursor: default;
+  background-color: white;
+  width: 26px;
+  height: 25px;
+  padding: 0px;
+}
+.cardFavBtn:hover {
+  background-color: white;
+}
+
+.favorited {
+  stroke: var(--color-button);
+}
+
+.cardInfo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: var(--color-main);
+}
+.cardRating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.cardIconRating {
+  width: 16px;
+  height: 16px;
+  fill: var(--color-rating);
+}
+
+.cardIconMap {
+  width: 16px;
+  height: 16px;
+  fill: var(--color-main);
+}
+
+.cardGroup {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.cardCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 8px;
+}
+
+.cardCategoriesRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  gap: 8px;
+}
+
+.cardCategory {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  border-radius: 100px;
+  background-color: var(--color-badges);
+  gap: 8px;
+  color: var(--color-main);
+  padding: 0 12px;
+  cursor: default;
+}
+.cardCategory:hover {
+  background-color: var(--color-badges);
+  cursor: default;
+}
+
+.cardIcon {
+  width: 20px;
+  height: 20px;
+  stroke: --var(color-main);
+}
+
+.showMoreBtn {
+  width: 166px;
+  height: 56px;
+}
+.showMoreBtn:hover {
+  background-color: var(--color-button-hover);
+}

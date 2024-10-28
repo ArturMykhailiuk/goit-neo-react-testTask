@@ -1,0 +1,36 @@
+.catalogPage {
+  margin: 120px 64px;
+  display: flex;
+  flex-direction: row;
+}
+
+.filterblock {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.camperList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-left: 40px;
+}
+
+.loadMore {
+  width: 145px;
+  background-color: white;
+  border: 1px solid #dadde1;
+  color: var(--color-main);
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.loadMore:hover {
+  background-color: white;
+  border: 1px solid var(--color-button-hover);
+}
+
+.loader {
+}

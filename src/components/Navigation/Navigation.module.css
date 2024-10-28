@@ -1,0 +1,50 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 200px 7px 64px;
+  background-color: var(--color-inputs);
+  border: 1px solid var(--color-badges);
+  position: fixed; /* Закріплення навігації */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Забезпечення, що навігація буде зверху інших елементів */
+}
+
+.logo {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.logoImage {
+  width: 136px;
+  height: 16px;
+}
+
+.linkFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding-left: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.navLinks li {
+  margin: 0;
+}
+
+.logoIcon {
+  width: 136px;
+  height: 16px;
+}
